@@ -25,22 +25,35 @@
 </head>
 <body>
   <header>
-    <nav class="navbar">
-      <ul class="">
-        <li><a href="index.html" target="_blank">Home</a></li>
-        <li><a href="importance.html" target="_blank">Importance</a></li>
-        <li><a href="healthcareaccess.html" target="_blank">Accessibility</a></li>
-        <li><a href="workforce.html" target="_blank">Workforce</a></li>
-        <li><a href="financing.html" target="_blank">Financing</a></li>
-        <li><a href="" target="_blank"></a></li>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-logo">logo</a> <!--add logo-->
+
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavMenu" aria-controls="myNavMenu" aria-expanded="false" aria-label="Toggle Navigation On.">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+        </svg>
+      </button>
+
+      <div class="collapse navbar-collapse" id="myNavMenu">
+      <ul class="navbar-nav mr-auto"> <!-- mx-auto or ml-auto -->
+        <li class="px-2"><a href="index.html" target="_blank">Home</a></li>
+        <li class="nav-item px-2"><a href="importance.html" target="_blank">Importance</a></li>
+        <li class="nav-item px-2"><a href="healthcareaccess.html" target="_blank">Accessibility</a></li>
+        <li class="nav-item px-2"><a href="workforce.html" target="_blank">Workforce</a></li>
+        <li class="nav-item px-2"><a href="financing.html" target="_blank">Financing</a></li>
+        <li class="nav-item px-2"><a href="politics.html" target="_blank">Politics</a></li>
       </ul>
+    </div> 
     </nav>
-  </header>
+ </header>
+
+  <div class="container pb-1">
   <h1>Brazil's Healthcare Workforce</h1> <!-- Centered at top of page-->
   <h2>Recruitment</h2>
   <p>The shortage of professionally trained workers in Brazil's healthcare industry often results in long wait times for citizens to obtain help, limited services in rural areas, and... which results in poor health outcomes. To improve Brazil's healthcare system, efforts should focus on reducing unequal access, especially in rural and poor areas—by investing in infrastructure, training, and telemedicine. Additionally, the quality of care needs to be raised by cutting wait times through better staffing, offering incentives, improving medical training, and ensuring proper equipment and resources are available.[1]</p>
   <h2>Retention</h2>
   <p></p>
   <img src="/images/healthcareretentionstrategies.jpg">
+  </div>
 </body>
 </html>
