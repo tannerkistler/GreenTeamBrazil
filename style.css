@@ -16,6 +16,22 @@ body {
 
 header {
   background-color: #B7D93D;
+  font-family: "Playfair", serif;
+}
+
+.container h1 {
+  color: #A2BF39;
+  font-family: "Josefin Sans", sans-serif;
+}
+.container h2 {
+  color: #A2BF39;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container p {
+  color: #1C4D8C;
+  font-family: "Playfair", serif;
+  font-size: 20px;
 }
 
 .navbar li {
@@ -25,10 +41,20 @@ header {
 .navbar a {
   text-decoration: none;
   color: #1C4D8C;
+  font-size: 1.2em;
 }
 
-nav-item {
-  display: 
+.navbar a:hover {
+  color: #07C7F2;
+}
+
+.fa-solid
+{
+  color: #1C4D8C;
+}
+.fa-bars
+{
+  color: #1C4D8C;
 }
 
 .center-img {
@@ -39,3 +65,4 @@ nav-item {
   height: auto;
   margin-top: 30px;
 }
+
