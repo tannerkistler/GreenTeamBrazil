@@ -64,5 +64,8 @@ header {
   max-width: 100%;
   height: auto;
   margin-top: 30px;
+  border: 5px solid #07C7F2;
+  border-radius: 8px;
 }
+
 
